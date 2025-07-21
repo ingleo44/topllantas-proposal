@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Componentes Técnicos"
+description: "Especificaciones técnicas detalladas de los componentes del sistema"
+---
+
 ## Componentes Técnicos
 
 ### 1. Agentes de Inteligencia Artificial

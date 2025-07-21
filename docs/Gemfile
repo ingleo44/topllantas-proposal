@@ -1,13 +1,10 @@
 source "https://rubygems.org"
 
-# Jekyll version
-gem "jekyll", "~> 4.3.0"
+# GitHub Pages Gem (this includes Jekyll and plugins)
+gem "github-pages", "~> 231", group: :jekyll_plugins
 
 # Tema por defecto de GitHub Pages
 gem "minima", "~> 2.5"
-
-# Plugin de GitHub Pages
-gem "github-pages", group: :jekyll_plugins
 
 # Plugins de Jekyll
 group :jekyll_plugins do
@@ -32,6 +29,3 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # kramdown v2 ships without the gfm parser by default
 gem "kramdown-parser-gfm"
-
-# Lock Jekyll to 4.3.x
-gem "jekyll", "~> 4.3.0"

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Presentación Ejecutiva"
+description: "Presentación completa para ejecutivos con agenda y material de apoyo"
+---
+
 # Propuesta de Presentación Ejecutiva - TopLlantas AI
 
 ## Agenda de Presentación (45 minutos)

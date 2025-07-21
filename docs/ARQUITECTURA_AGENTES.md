@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Arquitectura de Agentes"
+description: "Arquitectura técnica detallada de los agentes de inteligencia artificial"
+---
+
 # Arquitectura de Agentes de IA - TopLlantas
 
 ## Introducción

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Casos de Uso"
+description: "Casos de uso específicos que demuestran la transformación con agentes de IA"
+---
+
 # Casos de Uso Detallados - TopLlantas AI
 
 ## Introducción

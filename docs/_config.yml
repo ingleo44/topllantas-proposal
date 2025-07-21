@@ -6,7 +6,7 @@ email: "contact@topllantas-ai.com"
 
 # URL del sitio (cambiar por tu GitHub username)
 url: "https://ingleo44.github.io"
-baseurl: "/topllantas-ai-proposal"
+baseurl: "/topllantas-proposal"
 
 # Tema profesional
 theme: minima
@@ -18,13 +18,12 @@ locale: es_ES
 
 # Configuración de navegación principal
 header_pages:
-  - README.md
+  - index.md
   - PROPUESTA_PERSONAL_DEV.md
   - CASOS_DE_USO.md
   - COMPONENTES_TECNICOS.md
   - ARQUITECTURA_AGENTES.md
   - APIS_IMPLEMENTACION.md
-  - PRESUPUESTO_TIMELINE.md
   - PRESENTACION_EJECUTIVA.md
 
 # Plugins de Jekyll
@@ -74,7 +73,7 @@ disqus:
 
 # Configuración de redes sociales
 social_links:
-  - https://github.com/TU_USERNAME/topllantas-ai-proposal
+  - https://github.com/ingleo44/topllantas-proposal
   # - https://linkedin.com/company/topllantas
 
 # Configuración personalizada para TopLlantas

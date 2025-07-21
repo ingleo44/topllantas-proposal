@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Implementación de APIs"
+description: "Plan detallado de implementación de APIs para integración ERP y agentes de IA"
+---
+
 # Plan de Implementación APIs - TopLlantas
 
 ## Introducción

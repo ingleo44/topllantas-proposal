@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Propuesta Personal de Desarrollo"
+description: "Enfoque de desarrollo personal con un único desarrollador senior y herramientas de IA"
+---
+
 # Propuesta TopLlantas AI - Versión Desarrollo Personal
 
 ## Resumen Ejecutivo Ajustado
