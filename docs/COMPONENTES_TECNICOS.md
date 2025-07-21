@@ -1,23 +1,469 @@
 ---
 layout: default
-title: "Componentes Técnicos"
-description: "Especificaciones técnicas detalladas de los componentes del sistema"
+title: "Módulos y Funcionalidades"
+description: "Qué incluye la solución TopLlantas AI - Módulos principales y beneficios"
 ---
 
-## Componentes Técnicos
+# 🧩 Módulos TopLlantas AI
+## Todo lo que Incluye tu Transformación Digital
 
-### 1. Agentes de Inteligencia Artificial
+La solución TopLlantas AI se compone de módulos especializados que trabajan juntos para transformar completamente tu operación. Cada módulo está diseñado para resolver problemas específicos y generar valor inmediato.
 
-#### Agente de Gestión de Inventario
-**Funcionalidades:**
-- Monitoreo en tiempo real de niveles de stock
-- Predicción de demanda basada en datos históricos y tendencias
-- Optimización automática de puntos de reorden
-- Alertas proactivas de stock bajo o excesivo
-- Análisis de rotación de inventario por producto y ubicación
+---
 
-**Tecnologías:**
-- Azure OpenAI Service (GPT-4, modelos predictivos)
+## 📦 Módulo 1: Gestión Inteligente de Inventario
+### "Nunca más te quedes sin stock ni tengas productos muertos"
+
+#### 🎯 ¿Qué Problemas Resuelve?
+- ❌ **Stock insuficiente** de productos populares
+- ❌ **Sobrestosk** de productos de baja rotación
+- ❌ **Decisiones de compra** basadas en intuición
+- ❌ **Capital inmovilizado** en inventario excesivo
+- ❌ **Pérdida de ventas** por faltantes
+
+#### ✅ ¿Qué Obtienes?
+- **Predicciones precisas** de demanda por producto
+- **Alertas automáticas** cuando es momento de reordenar
+- **Optimización de capital** invertido en inventario
+- **Reportes inteligentes** con insights de negocio
+- **Integración completa** con tu ERP actual
+
+#### 🔧 Funcionalidades Incluidas
+
+**Predicción de Demanda Inteligente**
+- Análisis de patrones de venta históricos
+- Consideración de factores estacionales y económicos
+- Predicciones por producto, marca y categoría
+- Alertas de productos con potencial de crecimiento
+- Identificación de productos en declive
+
+**Optimización Automática de Stock**
+- Cálculo de puntos de reorden óptimos
+- Sugerencias de cantidades a comprar
+- Consideración de descuentos por volumen
+- Balance entre costo de inventario y disponibilidad
+- Planificación de compras a mediano plazo
+
+**Sistema de Alertas Proactivas**
+- Notificaciones por WhatsApp, Email y SMS
+- Diferentes niveles de urgencia (crítico, alto, medio)
+- Recomendaciones específicas de acción
+- Integración con calendarios del equipo
+- Reportes automáticos semanales
+
+#### 💰 Beneficios Económicos
+- **35% reducción** en costos de inventario
+- **90% menos faltantes** críticos
+- **50% reducción** en productos obsoletos
+- **$25,000 - $40,000** ahorro mensual promedio
+
+#### 📊 Panel de Control Incluido
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 📦 MÓDULO INVENTARIO - VISTA EJECUTIVA                     │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ 🚨 ACCIONES REQUERIDAS HOY                                 │
+│ • 3 productos críticos - reordenar inmediatamente          │
+│ • 5 productos en zona de alerta - revisar en 2 días       │
+│ • 2 oportunidades de compra - descuentos especiales        │
+│                                                             │
+│ 📈 PREDICCIONES ESTA SEMANA                                │
+│ • Demanda esperada: 1,247 productos                        │
+│ • Productos hot: Llantas run-flat (+45%)                   │
+│ • Tendencia general: ↗️ +8% vs semana anterior             │
+│                                                             │
+│ 💰 OPTIMIZACIÓN FINANCIERA                                 │
+│ • Capital en inventario: $285,000 (óptimo: $275,000)      │
+│ • Ahorro vs método anterior: $12,500 este mes              │
+│ • ROI del módulo: 340% anualizado                          │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🚚 Módulo 2: Logística y Entregas Inteligentes
+### "Entrega más rápido, gastando menos, con clientes más felices"
+
+#### 🎯 ¿Qué Problemas Resuelve?
+- ❌ **Rutas ineficientes** que aumentan costos
+- ❌ **Entregas tardías** que molestan a clientes
+- ❌ **Falta de visibilidad** en el tracking de pedidos
+- ❌ **Coordinación manual** de entregas
+- ❌ **Costos altos** de combustible y tiempo
+
+#### ✅ ¿Qué Obtienes?
+- **Rutas optimizadas** automáticamente cada día
+- **Tracking en tiempo real** para ti y tus clientes
+- **Entregas programadas** de manera inteligente
+- **Notificaciones automáticas** a clientes
+- **Reducción significativa** de costos operativos
+
+#### 🔧 Funcionalidades Incluidas
+
+**Optimización de Rutas Inteligente**
+- Cálculo automático de rutas más eficientes
+- Consideración de tráfico en tiempo real
+- Agrupación inteligente de entregas por zona
+- Optimización de carga por vehículo
+- Programación basada en preferencias de clientes
+
+**Tracking en Tiempo Real**
+- Ubicación GPS en vivo de todos los vehículos
+- Notificaciones automáticas a clientes
+- Estimaciones precisas de tiempo de llegada
+- Alertas proactivas de retrasos
+- Historial completo de entregas
+
+**Comunicación Automática con Clientes**
+- WhatsApp con ubicación del pedido
+- Confirmación de entrega automática
+- Encuestas de satisfacción post-entrega
+- Reprogramación de citas desde el chat
+- Notificaciones de preparación de pedido
+
+#### 💰 Beneficios Económicos
+- **40% reducción** en costos de transporte
+- **25% menos tiempo** de entrega promedio
+- **60% reducción** en llamadas de seguimiento
+- **$15,000 - $25,000** ahorro mensual en logística
+
+#### 📱 Experiencia del Cliente
+```
+┌─────────────────────────────────────────┐
+│ 📱 NOTIFICACIÓN AUTOMÁTICA              │
+├─────────────────────────────────────────┤
+│                                         │
+│ 🚚 TopLlantas                          │
+│                                         │
+│ ¡Hola Juan! Tu pedido #TL-001234       │
+│ salió del almacén a las 10:30 AM       │
+│                                         │
+│ 📍 Ubicación actual: Av. Universidad   │
+│ 🕐 Llegada estimada: 2:15 PM           │
+│ 👤 Conductor: Roberto ⭐⭐⭐⭐⭐            │
+│                                         │
+│ 🔗 Seguimiento en vivo:                │
+│ topllantas.mx/track/TL-001234          │
+│                                         │
+│ ¿Necesitas reprogramar?                │
+│ Responde "CAMBIAR HORA"                │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## 💼 Módulo 3: Ventas y Atención al Cliente 24/7
+### "Tu mejor vendedor que nunca duerme ni toma vacaciones"
+
+#### 🎯 ¿Qué Problemas Resuelve?
+- ❌ **Pérdida de ventas** fuera de horario laboral
+- ❌ **Tiempo excesivo** para generar cotizaciones
+- ❌ **Atención inconsistente** según el vendedor
+- ❌ **Seguimiento manual** de prospectos
+- ❌ **Información desactualizada** de productos y precios
+
+#### ✅ ¿Qué Obtienes?
+- **Atención 24/7** por WhatsApp y chat web
+- **Cotizaciones instantáneas** con precios actuales
+- **Recomendaciones personalizadas** por cliente
+- **Seguimiento automático** de todos los prospectos
+- **Cierre de ventas** sin intervención humana
+
+#### 🔧 Funcionalidades Incluidas
+
+**Atención al Cliente Inteligente**
+- Respuesta automática en WhatsApp y web
+- Entendimiento de lenguaje natural en español
+- Acceso a toda la información de productos
+- Historial completo de cada cliente
+- Transferencia inteligente a vendedores humanos
+
+**Generación de Cotizaciones Automáticas**
+- Precios actualizados en tiempo real
+- Descuentos automáticos según tipo de cliente
+- Opciones de financiamiento incluidas
+- Productos complementarios sugeridos
+- Validez automática de ofertas
+
+**CRM Automatizado**
+- Registro automático de todas las interacciones
+- Seguimiento de prospectos sin acción
+- Identificación de oportunidades de venta
+- Reportes de conversión por fuente
+- Análisis de comportamiento de clientes
+
+#### 💰 Beneficios Económicos
+- **50% más ventas** por disponibilidad 24/7
+- **80% menos tiempo** para generar cotizaciones
+- **35% mayor conversión** con recomendaciones IA
+- **$60,000 - $90,000** ventas adicionales mensuales
+
+#### 💬 Conversación Real del Sistema
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 💬 WHATSAPP - VENTAS AUTOMÁTICAS                           │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ Cliente (11:45 PM): Hola, necesito 4 llantas para         │
+│ Jetta 2020, ¿cuánto cuesta?                               │
+│                                                             │
+│ 🤖 TopLlantas (11:45 PM): ¡Hola! Con gusto te ayudo.     │
+│ Para tu Jetta 2020 tengo estas opciones:                  │
+│                                                             │
+│ 🏆 RECOMENDADA                                             │
+│ Continental ContiPremiumContact 6                          │
+│ Medida: 205/55R16                                          │
+│ Precio: $2,890 c/u                                        │
+│ Total 4 llantas: $11,560                                  │
+│ ✅ Instalación GRATIS                                      │
+│ ✅ Garantía 3 años                                         │
+│                                                             │
+│ 💰 OPCIÓN ECONÓMICA                                        │
+│ Pirelli Cinturato P1                                       │
+│ Precio: $2,240 c/u                                        │
+│ Total 4 llantas: $8,960                                   │
+│                                                             │
+│ ¿Te interesa alguna? Puedo separarte las llantas         │
+│ con $500 de apartado 😊                                   │
+│                                                             │
+│ Cliente (11:47 PM): Me interesa la Continental,           │
+│ ¿mañana las puedo recoger?                                │
+│                                                             │
+│ 🤖 TopLlantas (11:47 PM): ¡Perfecto! Sí tengo stock.     │
+│ Te envío el link de pago para apartar:                    │
+│ 💳 pay.topllantas.mx/apart/JET2020-CONT                   │
+│                                                             │
+│ Una vez que pagues, te llego a las 8 AM para              │
+│ confirmar horario de instalación 🔧                       │
+│                                                             │
+│ ¿Prefieres que vayamos a tu casa o vienes              │
+│ al taller?                                                 │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🛠️ Módulo 4: Soporte Técnico Inteligente
+### "Resuelve problemas técnicos al instante, cualquier hora del día"
+
+#### 🎯 ¿Qué Problemas Resuelve?
+- ❌ **Consultas técnicas complejas** fuera de horario
+- ❌ **Tiempo perdido** en diagnósticos básicos
+- ❌ **Información técnica desactualizada**
+- ❌ **Falta de seguimiento** post-venta
+- ❌ **Escalación innecesaria** de casos simples
+
+#### ✅ ¿Qué Obtienes?
+- **Soporte técnico 24/7** con IA especializada
+- **Diagnósticos automáticos** de problemas
+- **Guías paso a paso** con videos
+- **Base de conocimiento** siempre actualizada
+- **Escalación inteligente** solo cuando es necesario
+
+#### 🔧 Funcionalidades Incluidas
+
+**Diagnóstico Automático de Problemas**
+- Identificación de fallas por síntomas
+- Recomendaciones específicas de solución
+- Determinación de garantías aplicables
+- Programación automática de citas
+- Historial técnico completo por cliente
+
+**Base de Conocimiento Inteligente**
+- Manuales de instalación interactivos
+- Videos explicativos personalizados
+- Especificaciones técnicas de todos los productos
+- Casos de éxito y soluciones probadas
+- Actualizaciones automáticas de fabricantes
+
+**Escalación y Seguimiento**
+- Transferencia inteligente a técnicos humanos
+- Preparación de contexto completo
+- Seguimiento automático post-solución
+- Encuestas de satisfacción
+- Mejora continua del sistema
+
+#### 💰 Beneficios Económicos
+- **85% problemas resueltos** sin intervención humana
+- **70% reducción** en llamadas a soporte
+- **60% menos tiempo** por caso técnico
+- **$8,000 - $12,000** ahorro mensual en soporte
+
+---
+
+## 🧠 Módulo 5: Panel de Control y Analytics
+### "Toda tu operación en una sola pantalla con insights de IA"
+
+#### 🎯 ¿Qué Problemas Resuelve?
+- ❌ **Información dispersa** en múltiples sistemas
+- ❌ **Reportes manuales** que toman horas
+- ❌ **Decisiones basadas** en datos desactualizados
+- ❌ **Falta de visibilidad** en tiempo real
+- ❌ **Análisis superficial** sin insights profundos
+
+#### ✅ ¿Qué Obtienes?
+- **Dashboard ejecutivo** con métricas clave
+- **Reportes automáticos** personalizados
+- **Insights de IA** para toma de decisiones
+- **Alertas proactivas** de oportunidades y riesgos
+- **Análisis predictivo** de tendencias
+
+#### 🔧 Funcionalidades Incluidas
+
+**Dashboard Ejecutivo en Tiempo Real**
+- Métricas clave de ventas, inventario y logística
+- Gráficos interactivos y tendencias
+- Comparativos vs períodos anteriores
+- Alerts de KPIs fuera de rango
+- Acceso desde cualquier dispositivo
+
+**Reportes Automáticos Inteligentes**
+- Generación automática diaria, semanal y mensual
+- Personalización por rol y área
+- Insights y recomendaciones de IA
+- Distribución automática por email
+- Exportación a Excel y PDF
+
+**Analytics Predictivo**
+- Predicciones de ventas y demanda
+- Identificación de oportunidades de mercado
+- Análisis de comportamiento de clientes
+- Forecasting financiero automático
+- Alertas de riesgos operativos
+
+#### 📊 Vista del Dashboard Ejecutivo
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 📊 TOPLLANTAS AI - DASHBOARD EJECUTIVO                     │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ 📈 HOY (EN TIEMPO REAL)          📅 FECHA: 21 Jul 2025    │
+│                                                             │
+│ 💰 VENTAS                        📦 INVENTARIO             │
+│ • Hoy: $47,890                   • Stock crítico: 3        │
+│ • Meta: $45,000 ✅               • Rotación: 8.5x          │
+│ • Mes: $892,450 (89% meta)       • Inversión: $285k        │
+│                                                             │
+│ 🚚 LOGÍSTICA                     🤖 AGENTES IA             │
+│ • Entregas hoy: 23               • Consultas: 156          │
+│ • A tiempo: 95% ⭐               • Ventas cerradas: 12     │
+│ • Costo/entrega: $24.50          • Satisfacción: 96%      │
+│                                                             │
+│ 🎯 INSIGHTS DE IA                                          │
+│ • Oportunidad: Llantas run-flat tienen demanda 45% mayor  │
+│ • Alerta: Proveedor Michelin tendrá promoción la próx sem │
+│ • Recomendación: Incrementar stock de 215/60R16 en 30%    │
+│                                                             │
+│ 📋 ACCIONES SUGERIDAS                                      │
+│ 1. Reordenar 3 productos críticos (automático en 2h)      │
+│ 2. Contactar 8 clientes con pedidos pendientes            │
+│ 3. Revisar promoción de fin de mes (ROI +15%)             │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🔗 Módulo 6: Integración con ERP Existente
+### "Conecta todo sin cambiar lo que ya funciona"
+
+#### 🎯 ¿Qué Problemas Resuelve?
+- ❌ **Sistemas aislados** que no se comunican
+- ❌ **Entrada manual** de datos duplicados
+- ❌ **Información desincronizada** entre sistemas
+- ❌ **Procesos lentos** por falta de integración
+- ❌ **Errores humanos** en transferencia de datos
+
+#### ✅ ¿Qué Obtienes?
+- **Integración completa** con tu ERP actual
+- **Sincronización automática** de datos
+- **Flujo de información** bidireccional
+- **Backup y seguridad** de datos empresariales
+- **Escalabilidad** para futuras expansiones
+
+#### 🔧 Funcionalidades Incluidas
+
+**Conectores ERP**
+- Integración con SAP, Oracle, Microsoft Dynamics
+- Conectores personalizados para ERPs locales
+- APIs seguras con autenticación robusta
+- Sincronización en tiempo real o programada
+- Logs completos de todas las transacciones
+
+**Gestión de Datos**
+- Migración segura de datos históricos
+- Validación automática de integridad
+- Backup automático en la nube
+- Recuperación ante desastres
+- Auditoría completa de cambios
+
+**Escalabilidad y Mantenimiento**
+- Arquitectura preparada para crecimiento
+- Actualizaciones automáticas sin downtime
+- Monitoreo 24/7 de la infraestructura
+- Soporte técnico especializado
+- SLA del 99.9% de uptime
+
+---
+
+## 💰 Resumen de Inversión por Módulo
+
+### Opción 1: Implementación Completa
+**Inversión Total: $125,000 USD**
+- ✅ Todos los 6 módulos incluidos
+- ✅ Integración completa con ERP
+- ✅ Soporte 12 meses incluido
+- ✅ Capacitación completa del equipo
+- ✅ ROI: 285% primer año
+
+### Opción 2: Implementación Gradual
+
+**Fase 1 - Módulos Core (Meses 1-3): $45,000**
+- Módulo Ventas y Atención 24/7
+- Integración básica con ERP
+- Panel de control básico
+
+**Fase 2 - Operaciones (Meses 4-6): $40,000**
+- Módulo Gestión de Inventario
+- Módulo Soporte Técnico
+- Analytics básico
+
+**Fase 3 - Optimización (Meses 7-8): $40,000**
+- Módulo Logística Inteligente
+- Analytics avanzado y predictivo
+- Optimizaciones finales
+
+### Opción 3: Módulos Individuales
+- **Ventas y Atención**: $25,000
+- **Gestión de Inventario**: $20,000
+- **Logística**: $18,000
+- **Soporte Técnico**: $12,000
+- **Analytics**: $15,000
+- **Integración ERP**: $35,000
+
+---
+
+## 🚀 ¿Por Dónde Empezar?
+
+### Recomendación: Implementación Gradual
+1. **Mes 1-3**: Módulo de Ventas (ROI inmediato)
+2. **Mes 4-6**: Gestión de Inventario (optimización de capital)
+3. **Mes 7-8**: Logística (reducción de costos operativos)
+
+### Cada módulo paga el siguiente
+- **Módulo 1 genera**: $60,000+ ventas adicionales
+- **Módulo 2 ahorra**: $25,000+ en inventario
+- **Módulo 3 reduce**: $15,000+ costos logísticos
+
+**La inversión se autofinancia mientras creces** 📈
+
+---
+
+*¿Listo para transformar tu empresa? Cada día sin IA es una oportunidad perdida.*
 - Azure Machine Learning para modelos personalizados
 - Azure Cognitive Services para análisis de patrones
 

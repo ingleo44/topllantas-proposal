@@ -1,119 +1,390 @@
 ---
 layout: default
-title: "Arquitectura de Agentes"
-description: "Arquitectura técnica detallada de los agentes de inteligencia artificial"
+title: "Agentes Inteligentes - Tus Nuevos Empleados Digitales"
+description: "Conoce los agentes de IA que automatizarán y optimizarán tu empresa"
 ---
 
-# Arquitectura de Agentes de IA - TopLlantas
+# 🤖 Agentes Inteligentes TopLlantas
+## Tus Nuevos Empleados Digitales que Trabajan 24/7
 
-## Introducción
-
-Este documento detalla la arquitectura técnica de los agentes de inteligencia artificial que transformarán las operaciones de TopLlantas. Cada agente está diseñado como un microservicio especializado con capacidades específicas de AI/ML.
+Los agentes de inteligencia artificial son como empleados digitales especializados que nunca descansan, aprenden constantemente y ejecutan tareas con precisión perfecta. Cada agente se especializa en un área específica de tu negocio.
 
 ---
 
-## Arquitectura General de Agentes
+## 👥 Equipo de Agentes Inteligentes
 
-### Patrón de Diseño: Multi-Agent System
+### 🎯 Visión General del Sistema
 
-```mermaid
-graph TB
-    subgraph "Frontend Layer"
-        WEB[Portal Web]
-        MOB[Mobile App]
-        CHAT[WhatsApp/Teams]
-    end
-    
-    subgraph "API Gateway"
-        APIGW[Azure API Management]
-    end
-    
-    subgraph "Agent Orchestrator"
-        ORCH[Agent Coordinator]
-        INTENT[Intent Classification]
-        ROUTE[Request Router]
-    end
-    
-    subgraph "Specialized Agents"
-        AGT1[Inventory Agent]
-        AGT2[Logistics Agent]
-        AGT3[Sales Agent]
-        AGT4[Customer Service Agent]
-    end
-    
-    subgraph "AI Services"
-        OPENAI[Azure OpenAI]
-        ML[Azure ML]
-        COG[Cognitive Services]
-    end
-    
-    subgraph "Data Layer"
-        COSMOS[Cosmos DB]
-        SQL[SQL Database]
-        CACHE[Redis Cache]
-    end
-    
-    WEB --> APIGW
-    MOB --> APIGW
-    CHAT --> APIGW
-    APIGW --> ORCH
-    ORCH --> INTENT
-    INTENT --> ROUTE
-    ROUTE --> AGT1
-    ROUTE --> AGT2
-    ROUTE --> AGT3
-    ROUTE --> AGT4
-    AGT1 --> OPENAI
-    AGT2 --> ML
-    AGT3 --> COG
-    AGT4 --> OPENAI
-    AGT1 --> COSMOS
-    AGT2 --> SQL
-    AGT3 --> CACHE
-    AGT4 --> COSMOS
+```
+┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
+│   📱 Clientes   │    │  💻 Empleados   │    │  🤝 Socios      │
+│                 │    │                 │    │                 │
+│ • WhatsApp      │    │ • Portal Web    │    │ • Proveedores   │
+│ • Web/Mobile    │    │ • App Móvil     │    │ • Distribuidores│
+└─────────────────┘    └─────────────────┘    └─────────────────┘
+         │                       │                       │
+         └───────────────────────┼───────────────────────┘
+                                 │
+                    ┌─────────────────┐
+                    │  🧠 Coordinador │
+                    │   de Agentes    │
+                    └─────────────────┘
+                                 │
+        ┌────────────────────────┼────────────────────────┐
+        │                       │                        │
+┌───────▼────────┐    ┌─────────▼────────┐    ┌─────────▼────────┐
+│ 📦 Agente de   │    │ 🚚 Agente        │    │ 💼 Agente de     │
+│   Inventario   │    │   Logístico      │    │   Ventas         │
+│                │    │                  │    │                  │
+│• Predice       │    │• Optimiza rutas  │    │• Atiende clientes│
+│  demanda       │    │• Programa        │    │• Genera          │
+│• Optimiza      │    │  entregas        │    │  cotizaciones    │
+│  stock         │    │• Rastrea         │    │• Cierra ventas   │
+│• Alerta        │    │  envíos          │    │• Seguimiento     │
+│  faltantes     │    │• Reduce costos   │    │  post-venta      │
+└────────────────┘    └──────────────────┘    └──────────────────┘
+         │                       │                        │
+         └───────────────────────┼────────────────────────┘
+                                 │
+                    ┌─────────────────┐
+                    │ 🛠️ Agente de    │
+                    │   Soporte       │
+                    │                 │
+                    │• Resuelve       │
+                    │  problemas      │
+                    │• Guía técnica   │
+                    │• Escalación     │
+                    │  inteligente    │
+                    └─────────────────┘
 ```
 
 ---
 
-## Agente de Gestión de Inventario
+## 📦 Agente de Gestión de Inventario
+### "Tu Especialista en Stock que Nunca Duerme"
 
-### Arquitectura del Agente
+#### 🎯 ¿Qué Hace por Ti?
+- **Predice la demanda** de cada producto con 90% de precisión
+- **Optimiza niveles de stock** para evitar faltantes y excesos
+- **Alerta automáticamente** cuando es momento de reordenar
+- **Calcula pedidos óptimos** considerando costos y tendencias
+- **Genera reportes inteligentes** con insights de negocio
 
-```mermaid
-graph LR
-    subgraph "Inventory Agent"
-        INPUT[Input Processor]
-        PRED[Demand Predictor]
-        OPT[Stock Optimizer]
-        ALERT[Alert Manager]
-        OUTPUT[Action Executor]
-    end
-    
-    subgraph "ML Models"
-        LSTM[LSTM Forecasting]
-        RF[Random Forest]
-        ARIMA[ARIMA Model]
-    end
-    
-    subgraph "Data Sources"
-        ERP[ERP Database]
-        SALES[Sales History]
-        MARKET[Market Data]
-        WEATHER[Weather API]
-    end
-    
-    INPUT --> PRED
-    PRED --> OPT
-    OPT --> ALERT
-    ALERT --> OUTPUT
-    PRED --> LSTM
-    PRED --> RF
-    PRED --> ARIMA
-    INPUT --> ERP
-    INPUT --> SALES
-    INPUT --> MARKET
-    INPUT --> WEATHER
+#### 💰 Beneficios Inmediatos
+- ✅ **35% reducción** en costos de inventario
+- ✅ **90% menos faltantes** de productos populares
+- ✅ **50% menos productos obsoletos**
+- ✅ **Ahorro de 15 horas semanales** en gestión manual
+
+#### 🔧 Funcionalidades Principales
+
+**Predicción Inteligente de Demanda**
+- Analiza historial de ventas, estacionalidad y tendencias
+- Considera factores externos (clima, economía, eventos)
+- Ajusta predicciones en tiempo real
+- Identifica productos con potencial de crecimiento
+
+**Optimización Automática de Stock**
+- Calcula niveles óptimos para cada producto
+- Sugiere cantidades exactas a reordenar
+- Considera descuentos por volumen y costos de almacenaje
+- Balancea inversión vs. disponibilidad
+
+**Sistema de Alertas Inteligentes**
+- Notificaciones proactivas por WhatsApp/Email
+- Diferentes niveles de urgencia (crítico, importante, informativo)
+- Recomendaciones específicas de acción
+- Integración con proveedores para pedidos automáticos
+
+#### 📊 Panel de Control del Agente
 ```
+┌─────────────────────────────────────────────────────────────┐
+│ 📦 DASHBOARD - AGENTE DE INVENTARIO                         │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ 🚨 ALERTAS CRÍTICAS (3)                                    │
+│ • Llanta 215/60R16 Michelin: 5 días de stock restante      │
+│ • Rin 16" Deportivo: Pedido urgente requerido              │
+│ • Aceite 5W30: Precio especial termina en 2 días          │
+│                                                             │
+│ 📈 PREDICCIONES HOY                                         │
+│ • Demanda esperada: 145 llantas                            │
+│ • Tendencia: ↗️ +12% vs semana pasada                       │
+│ • Productos hot: Llantas para lluvia (+35%)                │
+│                                                             │
+│ 💰 OPTIMIZACIONES SUGERIDAS                                │
+│ • Reordenar ahora: $45,000 en 8 productos                  │
+│ • Ahorro potencial: $12,000 este mes                       │
+│ • ROI proyectado: 340%                                     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🚚 Agente Logístico Inteligente
+### "Tu Coordinador de Entregas que Nunca Se Equivoca"
+
+#### 🎯 ¿Qué Hace por Ti?
+- **Optimiza rutas de entrega** para reducir costos y tiempos
+- **Programa entregas inteligentemente** maximizando eficiencia
+- **Rastrea envíos en tiempo real** con actualizaciones automáticas
+- **Predice y soluciona problemas** antes de que afecten al cliente
+- **Coordina con transportistas** para mejores tarifas
+
+#### 💰 Beneficios Inmediatos
+- ✅ **40% reducción** en costos de transporte
+- ✅ **25% menos tiempo** de entrega promedio
+- ✅ **95% entregas a tiempo** (vs 70% actual)
+- ✅ **60% menos llamadas** de clientes preguntando por pedidos
+
+#### 🔧 Funcionalidades Principales
+
+**Optimización de Rutas Inteligente**
+- Calcula la ruta más eficiente considerando tráfico en tiempo real
+- Agrupa entregas por zona para maximizar eficiencia
+- Ajusta rutas dinámicamente ante imprevistos
+- Considera ventanas de entrega preferidas de clientes
+
+**Programación Automática de Entregas**
+- Asigna vehículos óptimos según carga y destino
+- Balancea workload entre conductores
+- Programa mantenimiento preventivo de vehículos
+- Optimiza uso de combustible y desgaste
+
+**Tracking en Tiempo Real**
+- Ubicación GPS en vivo de todos los envíos
+- Notificaciones automáticas a clientes
+- Alertas proactivas de retrasos o problemas
+- Estimaciones precisas de tiempo de llegada
+
+#### 📱 Experiencia del Cliente
+```
+┌─────────────────────────────────────────┐
+│ 📱 NOTIFICACIÓN WHATSAPP                │
+├─────────────────────────────────────────┤
+│                                         │
+│ 🚚 TopLlantas - Tracking de Pedido     │
+│                                         │
+│ ¡Hola María! Tu pedido #TL-2024-0156   │
+│ está en camino:                         │
+│                                         │
+│ 📍 Ubicación actual: Av. Revolución    │
+│ 🕐 Llegada estimada: 2:30 PM           │
+│ 👤 Conductor: Carlos (⭐⭐⭐⭐⭐)          │
+│ 📞 Tel: +52-xxx-xxx-xxxx               │
+│                                         │
+│ 🔗 Ver en tiempo real: topllantas.mx/t │
+│                                         │
+│ ¿Necesitas cambiar la hora? Responde   │
+│ "REPROGRAMAR"                           │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+---
+
+## 💼 Agente de Ventas y CRM
+### "Tu Vendedor Estrella Que Nunca Descansa"
+
+#### 🎯 ¿Qué Hace por Ti?
+- **Atiende clientes 24/7** por WhatsApp, chat y teléfono
+- **Genera cotizaciones instantáneas** con precios personalizados
+- **Recomienda productos** basado en necesidades específicas
+- **Da seguimiento automático** a prospectos y clientes
+- **Cierra ventas** y programa entregas automáticamente
+
+#### 💰 Beneficios Inmediatos
+- ✅ **50% más ventas** por disponibilidad 24/7
+- ✅ **80% menos tiempo** para generar cotizaciones
+- ✅ **35% mayor conversión** con recomendaciones inteligentes
+- ✅ **90% clientes satisfechos** con atención inmediata
+
+#### 🔧 Funcionalidades Principales
+
+**Atención al Cliente Inteligente**
+- Responde consultas en lenguaje natural
+- Identifica necesidades específicas del cliente
+- Accede al historial completo de compras
+- Transfiere a humanos solo cuando es necesario
+
+**Cotizaciones Automáticas**
+- Genera precios personalizados al instante
+- Aplica descuentos y promociones vigentes
+- Considera volumen y tipo de cliente
+- Incluye opciones de financiamiento disponibles
+
+**Recomendaciones Personalizadas**
+- Sugiere productos complementarios
+- Identifica necesidades no expresadas
+- Considera budget y preferencias del cliente
+- Aprende de cada interacción para mejorar
+
+#### 💬 Conversación con Cliente
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 💬 CHAT WHATSAPP - AGENTE DE VENTAS                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ Cliente (2:30 PM): Hola, necesito llantas para mi Tsuru    │
+│                                                             │
+│ 🤖 TopLlantas AI (2:30 PM): ¡Hola! Con gusto te ayudo.    │
+│ Veo que tienes un Tsuru 2009. ¿Cuál es el uso principal    │
+│ del vehículo? ¿Ciudad, carretera o mixto?                  │
+│                                                             │
+│ Cliente (2:32 PM): Es para la ciudad, trabajo de Uber      │
+│                                                             │
+│ 🤖 TopLlantas AI (2:32 PM): Perfecto! Para Uber te        │
+│ recomiendo estas opciones que duran más y dan mejor        │
+│ kilometraje:                                                │
+│                                                             │
+│ 🏆 RECOMENDACIÓN TOP                                        │
+│ • Michelin Energy XM2 175/65R14                           │
+│ • Precio: $1,840 c/u (20% desc. Uber)                     │
+│ • Duración: ~80,000 km                                     │
+│ • Ahorro combustible: 8%                                   │
+│                                                             │
+│ 💰 OPCIÓN ECONÓMICA                                         │
+│ • Bridgestone B250 175/65R14                              │
+│ • Precio: $1,240 c/u                                      │
+│ • Duración: ~50,000 km                                     │
+│                                                             │
+│ ¿Te gustaría la cotización completa? Incluyo instalación  │
+│ gratis y garantía de 2 años.                              │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🛠️ Agente de Soporte Técnico
+### "Tu Especialista que Resuelve Todo al Instante"
+
+#### 🎯 ¿Qué Hace por Ti?
+- **Resuelve dudas técnicas** sobre productos y servicios
+- **Diagnostica problemas** de llantas y vehículos
+- **Guía instalación** paso a paso con videos
+- **Programa mantenimiento** preventivo para flotas
+- **Escala casos complejos** a técnicos humanos
+
+#### 💰 Beneficios Inmediatos
+- ✅ **85% problemas resueltos** al primer contacto
+- ✅ **70% menos llamadas** a soporte humano
+- ✅ **24/7 disponibilidad** sin costo adicional
+- ✅ **95% satisfacción** del cliente en soporte
+
+#### 🔧 Funcionalidades Principales
+
+**Diagnóstico Inteligente**
+- Identifica problemas por síntomas descritos
+- Recomienda soluciones específicas
+- Determina si requiere cambio de producto
+- Programa citas de revisión cuando es necesario
+
+**Base de Conocimiento Dinámica**
+- Acceso a manuales de todos los productos
+- Videos explicativos personalizados
+- Casos similares resueltos anteriormente
+- Actualizaciones automáticas de información
+
+**Escalación Inteligente**
+- Identifica cuándo necesita intervención humana
+- Prepara contexto completo para técnico
+- Programa citas con especialistas
+- Seguimiento post-resolución automático
+
+---
+
+## 🧠 Coordinador de Agentes
+### "El Director de Orquesta de tu Transformación Digital"
+
+#### 🎯 ¿Qué Hace por Ti?
+- **Coordina todos los agentes** para trabajar como equipo
+- **Entiende contexto completo** de cada situación
+- **Deriva inteligentemente** cada consulta al agente correcto
+- **Aprende de cada interacción** para mejorar continuamente
+- **Reporta métricas** y insights de toda la operación
+
+#### 💡 Ejemplo de Coordinación Inteligente
+
+**Caso: Cliente solicita llantas para flota de 20 vehículos**
+
+1. **Agente de Ventas** → Identifica oportunidad de flota
+2. **Agente de Inventario** → Verifica disponibilidad y stock
+3. **Agente Logístico** → Planifica entrega escalonada
+4. **Coordinador** → Ensambla propuesta integral con financiamiento
+
+**Resultado**: Cotización completa en 5 minutos vs 2 días tradicionalmente
+
+---
+
+## 📊 Métricas y Monitoreo en Tiempo Real
+
+### Panel Ejecutivo de Agentes
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 📊 DASHBOARD EJECUTIVO - AGENTES IA                        │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│ 🤖 AGENTES ACTIVOS: 4/4    ⚡ UPTIME: 99.8%               │
+│                                                             │
+│ 📈 HOY (EN TIEMPO REAL)                                     │
+│ • Consultas atendidas: 247                                 │
+│ • Ventas generadas: $89,450                                │
+│ • Problemas resueltos: 34                                  │
+│ • Cotizaciones enviadas: 18                                │
+│                                                             │
+│ 🎯 MÉTRICAS CLAVE                                          │
+│ • Satisfacción cliente: 96% ⭐⭐⭐⭐⭐                        │
+│ • Tiempo respuesta: 12 segundos                            │
+│ • Resolución primer contacto: 87%                          │
+│ • Conversión ventas: 34% (↗️ +8%)                          │
+│                                                             │
+│ 💰 IMPACTO FINANCIERO                                       │
+│ • Ahorro operativo mensual: $28,500                        │
+│ • Ventas adicionales: $145,000                             │
+│ • ROI acumulado: 285%                                      │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🚀 Implementación Gradual
+
+### Fase 1: Fundación (Meses 1-3) - $45,000
+- ✅ **Agente de Ventas** básico en WhatsApp
+- ✅ **Integración con ERP** para consultas
+- ✅ **Panel de control** ejecutivo
+- ✅ **Capacitación** del equipo
+
+### Fase 2: Expansión (Meses 4-6) - $40,000
+- ✅ **Agente de Inventario** con predicciones
+- ✅ **Agente de Soporte** técnico
+- ✅ **Optimización** y mejoras continuas
+- ✅ **Reportes avanzados**
+
+### Fase 3: Optimización (Meses 7-8) - $40,000
+- ✅ **Agente Logístico** completo
+- ✅ **Coordinación avanzada** entre agentes
+- ✅ **Integraciones adicionales**
+- ✅ **Análisis predictivo** avanzado
+
+---
+
+## 💡 Tu Inversión, Tu Futuro
+
+### Inversión Total: $125,000 USD
+### ROI Esperado: 285% primer año
+### Payback: 4.2 meses
+
+**¿Puedes permitirte NO hacer esta inversión cuando tu competencia ya está automatizando?**
+
+Los agentes inteligentes no son el futuro... **son el presente**. Cada día que esperas, pierdes eficiencia, ventas y ventaja competitiva.
+
+---
+
+*¿Listo para conocer a tus nuevos empleados digitales?*
 
 ### Componentes Técnicos
 

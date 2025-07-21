@@ -6,28 +6,38 @@ permalink: /
 ---
 
 # 🚀 TopLlantas AI
-## Transformación Digital con Agentes de Inteligencia Artificial
+## Transformación Digital Inteligente para tu Empresa
 
-> **Propuesta integral para modernizar la cadena logística y de ventas de TopLlantas mediante la implementación de agentes de inteligencia artificial, APIs robustas para integración con ERP, y una plataforma cloud-native en Microsoft Azure.**
-
----
-
-## 📋 Documentación del Proyecto
-
-### Documentos Principales
-
-- [**📊 Propuesta Personal de Desarrollo**](PROPUESTA_PERSONAL_DEV.html) - Análisis de situación actual y objetivos
-- [**🎯 Casos de Uso**](CASOS_DE_USO.html) - Escenarios detallados de implementación
-- [**🔧 Componentes Técnicos**](COMPONENTES_TECNICOS.html) - Especificaciones técnicas de la solución
-- [**🏗️ Arquitectura de Agentes**](ARQUITECTURA_AGENTES.html) - Diseño de los agentes de IA
-- [**🔌 Implementación de APIs**](APIS_IMPLEMENTACION.html) - Plan de desarrollo de APIs
-- [**📈 Presentación Ejecutiva**](PRESENTACION_EJECUTIVA.html) - Resumen para ejecutivos
+> **Moderniza tu empresa con agentes de inteligencia artificial que automatizan procesos, optimizan inventarios y mejoran la experiencia del cliente, generando ahorros inmediatos y crecimiento sostenible.**
 
 ---
 
-## 🎯 Objetivos del Proyecto
+## 📋 Propuesta Completa
 
-### Transformación Digital
+### Documentos Clave
+
+- [**� Propuesta de Negocio**](PROPUESTA_PERSONAL_DEV.html) - Beneficios, ROI y plan de implementación
+- [**🎯 Casos de Uso Prácticos**](CASOS_DE_USO.html) - Cómo funcionará en el día a día
+- [**🧩 Módulos y Funcionalidades**](COMPONENTES_TECNICOS.html) - Qué incluye la solución
+- [**🤖 Agentes Inteligentes**](ARQUITECTURA_AGENTES.html) - Los "empleados digitales" que trabajarán para ti
+- [**� Integración con tu ERP**](APIS_IMPLEMENTACION.html) - Cómo se conecta con tus sistemas actuales
+- [**� Presentación Ejecutiva**](PRESENTACION_EJECUTIVA.html) - Resumen para toma de decisiones
+
+---
+
+## 💰 Inversión y Retorno
+
+### Inversión Total: $125,000 USD
+- **Desarrollo**: $85,000 USD (8 meses)
+- **Infraestructura Azure**: $2,000 USD/mes
+- **Licencias AI**: $800 USD/mes
+- **Soporte y mantenimiento**: $1,500 USD/mes
+
+### ROI Proyectado: 285% en el primer año
+
+---
+
+## 🎯 Beneficios Inmediatos
 - **Automatización inteligente** de procesos logísticos
 - **Optimización de inventarios** con IA predictiva
 - **Mejora de la experiencia del cliente** con agentes conversacionales
