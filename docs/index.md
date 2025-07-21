@@ -110,16 +110,5 @@ graph TB
 - 📊 Analytics y reportes avanzados
 - 🔄 Automatización completa
 
----
 
-## 📞 Contacto
 
-Para más información sobre este proyecto, contacta al equipo de desarrollo:
-
-- **Email**: contact@topllantas-ai.com
-- **Repositorio**: [GitHub - TopLlantas AI](https://github.com/ingleo44/topllantas-proposal)
-- **Última actualización**: {{ site.topllantas.last_updated }}
-
----
-
-*Desarrollado por el equipo de TopLlantas Development - {{ site.topllantas.version }}*
