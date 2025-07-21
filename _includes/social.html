@@ -1,0 +1,15 @@
+{%- if site.social_links -%}
+  <ul class="social-media-list">
+    {%- for link in site.social_links -%}
+      {%- if link contains 'github.com' -%}
+        <li><a href="{{ link }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg> <span class="username">GitHub</span></a></li>
+      {%- elsif link contains 'linkedin.com' -%}
+        <li><a href="{{ link }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">LinkedIn</span></a></li>
+      {%- elsif link contains 'twitter.com' -%}
+        <li><a href="{{ link }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">Twitter</span></a></li>
+      {%- else -%}
+        <li><a href="{{ link }}">{{ link }}</a></li>
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+{%- endif -%}

@@ -1,0 +1,83 @@
+<!-- Navegación entre páginas -->
+<div class="page-navigation">
+  <h3>📚 Navegar por la Propuesta</h3>
+  
+  <div class="nav-sections">
+    <div class="nav-section">
+      <h4>📋 Documentos Principales</h4>
+      <ul class="nav-list">
+        <li><a href="{{ '/' | relative_url }}">🏠 Inicio</a></li>
+        <li><a href="{{ '/PROPUESTA_PERSONAL_DEV' | relative_url }}">💼 Propuesta Personal Dev</a></li>
+        <li><a href="{{ '/CASOS_DE_USO' | relative_url }}">📋 Casos de Uso</a></li>
+        <li><a href="{{ '/INDICE' | relative_url }}">📑 Índice Completo</a></li>
+      </ul>
+    </div>
+    
+    <div class="nav-section">
+      <h4>🔧 Especificaciones Técnicas</h4>
+      <ul class="nav-list">
+        <li><a href="{{ '/COMPONENTES_TECNICOS' | relative_url }}">🔧 Componentes Técnicos</a></li>
+        <li><a href="{{ '/ARQUITECTURA_AGENTES' | relative_url }}">🤖 Arquitectura de Agentes</a></li>
+        <li><a href="{{ '/APIS_IMPLEMENTACION' | relative_url }}">🔗 APIs e Implementación</a></li>
+      </ul>
+    </div>
+    
+    <div class="nav-section">
+      <h4>💼 Información Comercial</h4>
+      <ul class="nav-list">
+        <li><a href="{{ '/PRESUPUESTO_TIMELINE' | relative_url }}">💰 Presupuesto y Timeline</a></li>
+        <li><a href="{{ '/PRESENTACION_EJECUTIVA' | relative_url }}">🎤 Presentación Ejecutiva</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="quick-stats">
+    <h4>📊 Datos Clave</h4>
+    <div class="stats-grid">
+      <div class="stat">
+        <span class="stat-value">$85,400</span>
+        <span class="stat-label">Inversión USD</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">368%</span>
+        <span class="stat-label">ROI Primer Año</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">8</span>
+        <span class="stat-label">Meses Timeline</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value">4</span>
+        <span class="stat-label">Agentes AI</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Enlaces de navegación anterior/siguiente -->
+{%- assign pages_list = site.pages | where_exp: "item", "item.path contains '.md'" | sort: "path" -%}
+{%- for node in pages_list -%}
+  {%- if node.url == page.url -%}
+    {%- assign current_index = forloop.index0 -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign prev_index = current_index | minus: 1 -%}
+{%- assign next_index = current_index | plus: 1 -%}
+
+<div class="page-nav-arrows">
+  {%- if prev_index >= 0 -%}
+    {%- assign prev_page = pages_list[prev_index] -%}
+    <a href="{{ prev_page.url | relative_url }}" class="nav-arrow prev">
+      ← {{ prev_page.title | default: prev_page.name }}
+    </a>
+  {%- endif -%}
+  
+  {%- if next_index < pages_list.size -%}
+    {%- assign next_page = pages_list[next_index] -%}
+    <a href="{{ next_page.url | relative_url }}" class="nav-arrow next">
+      {{ next_page.title | default: next_page.name }} →
+    </a>
+  {%- endif -%}
+</div>

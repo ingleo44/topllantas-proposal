@@ -1,0 +1,111 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <!-- Sección de navegación rápida para TopLlantas -->
+  <div class="topllantas-nav">
+    <h2>🚀 Navegación Rápida</h2>
+    <div class="nav-grid">
+      <div class="nav-item">
+        <h3>💼 Propuesta Personal</h3>
+        <p>Versión optimizada para 1 developer + AI</p>
+        <a href="{{ '/PROPUESTA_PERSONAL_DEV' | relative_url }}" class="nav-link">Ver Propuesta →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>📋 Casos de Uso</h3>
+        <p>Ejemplos reales de funcionamiento</p>
+        <a href="{{ '/CASOS_DE_USO' | relative_url }}" class="nav-link">Ver Casos →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>🔧 Componentes Técnicos</h3>
+        <p>Especificaciones detalladas</p>
+        <a href="{{ '/COMPONENTES_TECNICOS' | relative_url }}" class="nav-link">Ver Componentes →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>🤖 Arquitectura Agentes</h3>
+        <p>Diseño de los agentes de AI</p>
+        <a href="{{ '/ARQUITECTURA_AGENTES' | relative_url }}" class="nav-link">Ver Arquitectura →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>🔗 APIs Implementación</h3>
+        <p>Plan de integración ERP</p>
+        <a href="{{ '/APIS_IMPLEMENTACION' | relative_url }}" class="nav-link">Ver APIs →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>💰 Presupuesto</h3>
+        <p>Costos, timeline y ROI</p>
+        <a href="{{ '/PRESUPUESTO_TIMELINE' | relative_url }}" class="nav-link">Ver Presupuesto →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>🎤 Presentación</h3>
+        <p>Slides ejecutivos</p>
+        <a href="{{ '/PRESENTACION_EJECUTIVA' | relative_url }}" class="nav-link">Ver Presentación →</a>
+      </div>
+      
+      <div class="nav-item">
+        <h3>📑 Índice Completo</h3>
+        <p>Todos los documentos</p>
+        <a href="{{ '/INDICE' | relative_url }}" class="nav-link">Ver Índice →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resumen ejecutivo destacado -->
+  <div class="executive-summary">
+    <h2>📊 Resumen Ejecutivo - Propuesta Personal</h2>
+    <div class="summary-grid">
+      <div class="summary-item">
+        <h4>💰 Inversión</h4>
+        <p class="highlight">$85,400 USD</p>
+      </div>
+      <div class="summary-item">
+        <h4>📈 ROI</h4>
+        <p class="highlight">368%</p>
+      </div>
+      <div class="summary-item">
+        <h4>⏱️ Timeline</h4>
+        <p class="highlight">8 meses</p>
+      </div>
+      <div class="summary-item">
+        <h4>💸 Payback</h4>
+        <p class="highlight">2.6 meses</p>
+      </div>
+    </div>
+  </div>
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  {%- endif -%}
+
+</div>

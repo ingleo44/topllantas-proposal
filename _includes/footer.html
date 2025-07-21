@@ -1,0 +1,58 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+        <p><small>Versión {{ site.topllantas.version | default: "1.0" }} | Última actualización: {{ site.topllantas.last_updated | default: "2025" }}</small></p>
+      </div>
+    </div>
+
+    <!-- TopLlantas specific footer content -->
+    <div class="topllantas-footer">
+      <div class="footer-stats">
+        <div class="stat-item">
+          <strong>💰 Inversión:</strong> $85,400 USD
+        </div>
+        <div class="stat-item">
+          <strong>📈 ROI:</strong> 368%
+        </div>
+        <div class="stat-item">
+          <strong>⏱️ Timeline:</strong> 8 meses
+        </div>
+        <div class="stat-item">
+          <strong>🤖 Agentes:</strong> 4 especializados
+        </div>
+      </div>
+      
+      <div class="footer-disclaimer">
+        <p><em>Esta propuesta representa una solución integral de transformación digital para TopLlantas, desarrollada específicamente para optimizar la cadena logística y ventas mediante agentes de inteligencia artificial.</em></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

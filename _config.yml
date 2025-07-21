@@ -1,0 +1,86 @@
+# Configuración del sitio Jekyll para TopLlantas AI
+title: "TopLlantas AI - Transformación Digital"
+description: "Propuesta integral para implementar Agentes de IA en la cadena logística y ventas de TopLlantas"
+author: "TopLlantas Development Team"
+email: "contact@topllantas-ai.com"
+
+# URL del sitio (cambiar por tu GitHub username)
+url: "https://ingleo44.github.io"
+baseurl: "/topllantas-ai-proposal"
+
+# Tema profesional
+theme: minima
+# remote_theme: "mmistakes/minimal-mistakes"
+
+# Configuración de idioma
+lang: es
+locale: es_ES
+
+# Configuración de navegación principal
+header_pages:
+  - README.md
+  - PROPUESTA_PERSONAL_DEV.md
+  - CASOS_DE_USO.md
+  - COMPONENTES_TECNICOS.md
+  - ARQUITECTURA_AGENTES.md
+  - APIS_IMPLEMENTACION.md
+  - PRESUPUESTO_TIMELINE.md
+  - PRESENTACION_EJECUTIVA.md
+
+# Plugins de Jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+# Configuración de Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+# Configuración de URLs
+permalink: pretty
+
+# Configuración de archivos a excluir
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - README_SETUP.md
+
+# Configuración de colecciones
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:name/
+
+# Configuración de SEO
+google_analytics: # Agregar ID de Google Analytics si se necesita
+twitter:
+  username: # Agregar handle de Twitter si aplica
+
+# Configuración de comentarios (opcional)
+disqus:
+  shortname: # Agregar Disqus shortname si se quieren comentarios
+
+# Configuración de redes sociales
+social_links:
+  - https://github.com/TU_USERNAME/topllantas-ai-proposal
+  # - https://linkedin.com/company/topllantas
+
+# Configuración personalizada para TopLlantas
+topllantas:
+  logo: "/assets/images/topllantas-logo.png"
+  company_name: "TopLlantas"
+  project_name: "AI Transformation"
+  version: "1.0"
+  last_updated: "2025-07-21"

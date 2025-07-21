@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}">
+
+{%- include head.html -%}
+
+<body>
+
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+          {%- if page.description -%}
+            <p class="post-description">{{ page.description | escape }}</p>
+          {%- endif -%}
+          
+          {%- if page.date -%}
+            <p class="post-meta">
+              <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                {{ page.date | date: date_format }}
+              </time>
+            </p>
+          {%- endif -%}
+        </header>
+
+        <div class="post-content">
+          {{ content }}
+        </div>
+
+        {%- if page.tags.size > 0 -%}
+          <div class="post-tags">
+            <h4>Tags:</h4>
+            {%- for tag in page.tags -%}
+              <span class="tag">{{ tag }}</span>
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        {%- include navigation.html -%}
+
+      </article>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>
