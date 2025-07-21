@@ -78,7 +78,7 @@ social_links:
 
 # Configuración personalizada para TopLlantas
 topllantas:
-  logo: "/assets/images/TOP-LLANTAS.webp"
+  logo: "/assets/images/top-llantas.png"
   company_name: "TopLlantas"
   project_name: "AI Transformation"
   version: "1.0"
