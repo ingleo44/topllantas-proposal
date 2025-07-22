@@ -16,11 +16,8 @@ permalink: /
 
 ### Documentos Clave
 
-- [**� Propuesta de Negocio**](PROPUESTA_PERSONAL_DEV.html) - Beneficios, ROI y plan de implementación
 - [**🎯 Casos de Uso Prácticos**](CASOS_DE_USO.html) - Cómo funcionará en el día a día
-- [**🧩 Módulos y Funcionalidades**](COMPONENTES_TECNICOS.html) - Qué incluye la solución
 - [**🤖 Agentes Inteligentes**](ARQUITECTURA_AGENTES.html) - Los "empleados digitales" que trabajarán para ti
-- [**� Integración con tu ERP**](APIS_IMPLEMENTACION.html) - Cómo se conecta con tus sistemas actuales
 - [**� Presentación Ejecutiva**](PRESENTACION_EJECUTIVA.html) - Resumen para toma de decisiones
 
 ---
