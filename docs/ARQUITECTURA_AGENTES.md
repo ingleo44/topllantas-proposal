@@ -4,14 +4,14 @@ title: "Agentes Inteligentes - Tus Nuevos Empleados Digitales"
 description: "Conoce los agentes de IA que automatizarán y optimizarán tu empresa"
 ---
 
-# 🤖 Agentes Inteligentes TopLlantas
+# 🤖 Agentes OpenAI Especializados TopLlantas
 ## Tus Nuevos Empleados Digitales que Trabajan 24/7
 
-Los agentes de inteligencia artificial son como empleados digitales especializados que nunca descansan, aprenden constantemente y ejecutan tareas con precisión perfecta. Cada agente se especializa en un área específica de tu negocio.
+Los **agentes OpenAI especializados** son como empleados digitales de última generación que nunca descansan, aprenden constantemente y ejecutan tareas con precisión perfecta. Cada agente utiliza la tecnología GPT-4 de OpenAI y se especializa en un área específica de tu negocio.
 
 ---
 
-## 👥 Equipo de Agentes Inteligentes
+## 👥 Equipo de Agentes OpenAI Especializados
 
 ### 🎯 Visión General del Sistema
 
@@ -26,28 +26,28 @@ Los agentes de inteligencia artificial son como empleados digitales especializad
          └───────────────────────┼───────────────────────┘
                                  │
                     ┌─────────────────┐
-                    │  🧠 Coordinador │
-                    │   de Agentes    │
+                    │  🧠 Orquestador │
+                    │ OpenAI Assistants│
                     └─────────────────┘
                                  │
         ┌────────────────────────┼────────────────────────┐
         │                       │                        │
 ┌───────▼────────┐    ┌─────────▼────────┐    ┌─────────▼────────┐
-│ 📦 Agente de   │    │ 🚚 Agente        │    │ 💼 Agente de     │
-│   Inventario   │    │   Logístico      │    │   Ventas         │
-│                │    │                  │    │                  │
-│• Predice       │    │• Optimiza rutas  │    │• Atiende clientes│
-│  demanda       │    │• Programa        │    │• Genera          │
-│• Optimiza      │    │  entregas        │    │  cotizaciones    │
-│  stock         │    │• Rastrea         │    │• Cierra ventas   │
-│• Alerta        │    │  envíos          │    │• Seguimiento     │
-│  faltantes     │    │• Reduce costos   │    │  post-venta      │
+│ 📦 Agente OpenAI│    │ 🚚 Agente OpenAI │    │ 💼 Agente OpenAI │
+│   Inventario    │    │   Logístico      │    │   Ventas         │
+│                 │    │                  │    │                  │
+│• Predice        │    │• Optimiza rutas  │    │• Atiende clientes│
+│  demanda        │    │• Programa        │    │• Genera          │
+│• Optimiza       │    │  entregas        │    │  cotizaciones    │
+│  stock          │    │• Rastrea         │    │• Cierra ventas   │
+│• Alerta         │    │  envíos          │    │• Seguimiento     │
+│  faltantes      │    │• Reduce costos   │    │  post-venta      │
 └────────────────┘    └──────────────────┘    └──────────────────┘
          │                       │                        │
          └───────────────────────┼────────────────────────┘
                                  │
                     ┌─────────────────┐
-                    │ 🛠️ Agente de    │
+                    │ 🛠️ Agente OpenAI│
                     │   Soporte       │
                     │                 │
                     │• Resuelve       │
@@ -60,15 +60,15 @@ Los agentes de inteligencia artificial son como empleados digitales especializad
 
 ---
 
-## 📦 Agente de Gestión de Inventario
-### "Tu Especialista en Stock que Nunca Duerme"
+## 📦 Agente OpenAI de Gestión de Inventario
+### "Tu Especialista en Stock Potenciado por GPT-4"
 
 #### 🎯 ¿Qué Hace por Ti?
-- **Predice la demanda** de cada producto con 90% de precisión
-- **Optimiza niveles de stock** para evitar faltantes y excesos
-- **Alerta automáticamente** cuando es momento de reordenar
-- **Calcula pedidos óptimos** considerando costos y tendencias
-- **Genera reportes inteligentes** con insights de negocio
+- **Predice la demanda** de cada producto con 94% de precisión (GPT-4 + datos históricos)
+- **Optimiza niveles de stock** usando algoritmos avanzados de OpenAI
+- **Alerta automáticamente** con contexto inteligente y recomendaciones
+- **Calcula pedidos óptimos** considerando múltiples variables complejas
+- **Genera reportes inteligentes** con insights de negocio en lenguaje natural
 
 #### 💰 Beneficios Inmediatos
 - ✅ **35% reducción** en costos de inventario
@@ -122,8 +122,8 @@ Los agentes de inteligencia artificial son como empleados digitales especializad
 
 ---
 
-## 🚚 Agente Logístico Inteligente
-### "Tu Coordinador de Entregas que Nunca Se Equivoca"
+## 🚚 Agente OpenAI Logístico Inteligente
+### "Tu Coordinador de Entregas Potenciado por GPT-4"
 
 #### 🎯 ¿Qué Hace por Ti?
 - **Optimiza rutas de entrega** para reducir costos y tiempos
@@ -184,15 +184,15 @@ Los agentes de inteligencia artificial son como empleados digitales especializad
 
 ---
 
-## 💼 Agente de Ventas y CRM
-### "Tu Vendedor Estrella Que Nunca Descansa"
+## 💼 Agente OpenAI de Ventas y CRM
+### "Tu Vendedor Estrella con Inteligencia GPT-4"
 
 #### 🎯 ¿Qué Hace por Ti?
-- **Atiende clientes 24/7** por WhatsApp, chat y teléfono
-- **Genera cotizaciones instantáneas** con precios personalizados
-- **Recomienda productos** basado en necesidades específicas
-- **Da seguimiento automático** a prospectos y clientes
-- **Cierra ventas** y programa entregas automáticamente
+- **Atiende clientes 24/7** con conversaciones naturales powered by GPT-4
+- **Genera cotizaciones instantáneas** con precios personalizados y contexto
+- **Recomienda productos** usando análisis avanzado de necesidades
+- **Da seguimiento automático** con personalización inteligente
+- **Cierra ventas** y programa entregas usando funciones OpenAI
 
 #### 💰 Beneficios Inmediatos
 - ✅ **50% más ventas** por disponibilidad 24/7
@@ -350,33 +350,36 @@ Los agentes de inteligencia artificial son como empleados digitales especializad
 
 ---
 
-## 🚀 Implementación Gradual
+## 🚀 Implementación Incremental con Agentes OpenAI
 
-### Fase 1: Fundación (Meses 1-3) - $45,000
-- ✅ **Agente de Ventas** básico en WhatsApp
-- ✅ **Integración con ERP** para consultas
-- ✅ **Panel de control** ejecutivo
-- ✅ **Capacitación** del equipo
+### Fase 0: MVP con Agentes Especializados (Mes 1) - $4,200 USD
+- ✅ **3 Agentes OpenAI configurados**: Ventas, Inventario, Cotizaciones
+- ✅ **Integración WhatsApp Business** funcionando 24/7
+- ✅ **OpenAI Assistants API** con funciones personalizadas
+- ✅ **Dashboard básico** para monitoreo de agentes
+- ✅ **Training especializado** con datos TopLlantas
 
-### Fase 2: Expansión (Meses 4-6) - $40,000
-- ✅ **Agente de Inventario** con predicciones
-- ✅ **Agente de Soporte** técnico
-- ✅ **Optimización** y mejoras continuas
-- ✅ **Reportes avanzados**
+### Fase 1: Optimización Inteligente (Meses 2-4) - $6,800 USD
+- ✅ **Agentes con GPT-4 Turbo** para conversaciones avanzadas
+- ✅ **Integración ERP completa** con funciones personalizadas
+- ✅ **Agente de Leads** especializado en seguimiento
+- ✅ **Analytics de conversaciones** powered by OpenAI
+- ✅ **Handoffs inteligentes** entre agentes
 
-### Fase 3: Optimización (Meses 7-8) - $40,000
-- ✅ **Agente Logístico** completo
-- ✅ **Coordinación avanzada** entre agentes
-- ✅ **Integraciones adicionales**
-- ✅ **Análisis predictivo** avanzado
+### Fase 2: Escalamiento Completo (Meses 5-8) - $8,500 USD
+- ✅ **Agente Logístico OpenAI** con optimización de rutas
+- ✅ **Portal web con chat integrado** de agentes
+- ✅ **App móvil** con asistente IA para vendedores
+- ✅ **Orquestación avanzada** de múltiples agentes
+- ✅ **Agente de Predicción** para compras automáticas
 
 ---
 
-## 💡 Tu Inversión, Tu Futuro
+## 💡 Tu Inversión Inteligente, Tu Futuro Asegurado
 
-### Inversión Total: $125,000 USD
-### ROI Esperado: 285% primer año
-### Payback: 4.2 meses
+### Inversión Total Incremental: $19,500 USD
+### ROI Esperado: 2,983% primer año  
+### Payback: 1.2 meses (break-even desde mes 2)
 
 **¿Puedes permitirte NO hacer esta inversión cuando tu competencia ya está automatizando?**
 

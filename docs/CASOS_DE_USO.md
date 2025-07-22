@@ -8,7 +8,7 @@ description: "Casos de uso específicos que demuestran la transformación con ag
 
 ## Introducción
 
-Este documento presenta casos de uso específicos que demuestran cómo los agentes de AI transformarán las operaciones diarias de TopLlantas, proporcionando valor tangible y medible en cada interacción.
+Este documento presenta casos de uso específicos que demuestran cómo los **agentes OpenAI especializados** transformarán las operaciones diarias de TopLlantas, proporcionando valor tangible y medible desde el primer día con el **enfoque incremental de implementación**.
 
 ---
 
@@ -30,14 +30,14 @@ Este documento presenta casos de uso específicos que demuestran cómo los agent
 - Decisiones basadas en datos incompletos
 - Posibles sobre-stocks por compras conservadoras
 
-### Escenario Futuro (Con AI)
-**Situación:** El Agente de Inventario detecta automáticamente que las llantas Michelin 215/60R16 alcanzarán el punto de reorden en 3 días.
+### Escenario Futuro (Con Agentes OpenAI Especializados)
+**Situación:** El **Agente de Inventario OpenAI** detecta automáticamente que las llantas Michelin 215/60R16 alcanzarán el punto de reorden en 3 días.
 
 #### Flujo Automatizado:
 
 1. **Detección Proactiva (08:00 AM)**
    ```
-   🤖 Agente AI: "Detectado: Stock Michelin 215/60R16 
+   🤖 Agente de Inventario OpenAI: "Detectado: Stock Michelin 215/60R16 
    llegará a punto de reorden en 3 días.
    
    Análisis realizado:
@@ -105,16 +105,16 @@ Este documento presenta casos de uso específicos que demuestran cómo los agent
 - Posible pérdida de venta
 - Proceso ineficiente y costoso
 
-### Escenario Futuro (Con AI)
+### Escenario Futuro (Con Agentes OpenAI Especializados)
 **Situación:** El concesionario accede al portal web o WhatsApp Business a las 10:30 PM.
 
-#### Conversación con Agente AI:
+#### Conversación con Agente de Ventas OpenAI:
 
 ```
 👨‍💼 Cliente: "Necesito 4 llantas Bridgestone 225/45R17 
 para entrega mañana temprano. ¿Tienen disponibilidad?"
 
-🤖 AI Assistant: "¡Hola! Revisando disponibilidad para 
+🤖 Agente de Ventas OpenAI: "¡Hola! Revisando disponibilidad para 
 Bridgestone Potenza RE050A 225/45R17...
 
 ✅ DISPONIBLE: 8 unidades en stock
@@ -126,7 +126,7 @@ Bridgestone Potenza RE050A 225/45R17...
 
 👨‍💼 Cliente: "Perfecto, confirma por favor"
 
-🤖 AI Assistant: "✅ PEDIDO CONFIRMADO
+🤖 Agente de Ventas OpenAI: "✅ PEDIDO CONFIRMADO
 
 📋 Orden #TL-2025-07-8847
 🏷️ 4x Bridgestone Potenza RE050A 225/45R17
@@ -184,10 +184,10 @@ Bridgestone Potenza RE050A 225/45R17...
 - Alto consumo de combustible
 - Conductores trabajando horas extra
 
-### Escenario Futuro (Con AI)
-**Situación:** El Agente de Logística optimiza automáticamente las 15 entregas considerando múltiples variables.
+### Escenario Futuro (Con Agentes OpenAI Especializados)
+**Situación:** El **Agente de Logística OpenAI** optimiza automáticamente las 15 entregas considerando múltiples variables.
 
-#### Optimización AI - 6:00 AM:
+#### Optimización con IA Especializada - 6:00 AM:
 
 ```
 🚛 PLAN DE ENTREGAS OPTIMIZADO - 28 Julio 2025
@@ -310,10 +310,10 @@ Disculpe las molestias. -TopLlantas AI"
 - Decisiones basadas en intuición
 - Capital inmovilizado innecesariamente
 
-### Escenario Futuro (Con AI)
-**Situación:** El Agente AI analiza múltiples fuentes de datos para generar predicciones precisas.
+### Escenario Futuro (Con Agentes OpenAI Especializados)
+**Situación:** El **Agente de Predicción OpenAI** analiza múltiples fuentes de datos para generar predicciones precisas, mientras el **Agente de Compras** optimiza las órdenes automáticamente.
 
-#### Análisis Predictivo - Mayo 2025:
+#### Análisis Predictivo con IA Especializada - Mayo 2025:
 
 ```
 🔮 PREDICCIÓN DE DEMANDA - TEMPORADA LLUVIAS 2025
@@ -430,30 +430,72 @@ Disculpe las molestias. -TopLlantas AI"
 
 ```mermaid
 graph TD
-    A[Predicción AI identifica tendencia] --> B[Agente Inventario genera orden]
+    A[Agente Predicción OpenAI identifica tendencia] --> B[Agente Inventario genera orden]
     B --> C[Agente Logística optimiza recepción]
     C --> D[Productos llegan a almacén]
     D --> E[Cliente solicita productos]
-    E --> F[Agente Ventas atiende consulta]
+    E --> F[Agente Ventas OpenAI atiende consulta]
     F --> G[Agente Logística programa entrega]
     G --> H[Entrega exitosa]
     H --> I[Datos alimentan siguiente predicción]
     I --> A
 ```
 
-### Métricas de Éxito Consolidadas
+### Implementación Incremental de Casos de Uso
 
-| KPI | Antes | Después | Mejora |
-|-----|-------|---------|--------|
-| **Tiempo respuesta cliente** | 4-6 horas | Instantáneo | 100% |
-| **Precisión inventario** | 72% | 94% | +31% |
-| **Entregas a tiempo** | 80% | 98% | +23% |
-| **Costos operacionales** | 100% | 70% | -30% |
-| **Satisfacción cliente** | 75% | 95% | +27% |
-| **Rotación inventario** | 4.8x | 6.2x | +29% |
+#### **Fase 0: MVP (Mes 1) - $4,200 USD**
+**Casos de uso implementados:**
+- ✅ **Caso 2 básico**: Agente de Ventas OpenAI para atención 24/7
+- ✅ **Caso 1 básico**: Alertas automáticas de inventario bajo
+- ✅ **Consultas básicas**: Disponibilidad y precios en tiempo real
+
+**Valor inmediato:**
+- Atención al cliente 24/7 desde día 30
+- Reducción 60% tiempo de respuesta
+- ROI del 200-400% en primeros 3 meses
+
+#### **Fase 1: Optimización (Meses 2-4) - $6,800 USD**
+**Casos de uso expandidos:**
+- ✅ **Caso 1 completo**: Agente de Inventario con predicciones básicas
+- ✅ **Caso 2 avanzado**: Agente de Ventas con integración ERP
+- ✅ **Gestión de leads**: Seguimiento automático y escalación
+
+**Valor acumulado:**
+- Predicción de demanda con 85%+ precisión
+- Automatización completa de cotizaciones
+- Reducción 40% en quiebres de stock
+
+#### **Fase 2: Escalamiento (Meses 5-8) - $8,500 USD**
+**Casos de uso completos:**
+- ✅ **Caso 3 completo**: Agente de Logística con optimización de rutas
+- ✅ **Caso 4 completo**: Predicción avanzada y compras automáticas
+- ✅ **Integración total**: Portal web + apps móviles
+
+**Valor máximo:**
+- Optimización logística completa (25% ahorro en entregas)
+- Predicciones con 94%+ precisión
+- Sistema completo de agentes especializados
+
+### Métricas de Éxito por Fase
+
+| KPI | Fase 0 (Mes 1) | Fase 1 (Mes 4) | Fase 2 (Mes 8) | Meta Final |
+|-----|----------------|----------------|----------------|------------|
+| **Tiempo respuesta** | 5 min | 2 min | Instantáneo | Instantáneo |
+| **Precisión inventario** | 80% | 88% | 94% | 94%+ |
+| **Entregas a tiempo** | 85% | 92% | 98% | 98%+ |
+| **Ahorro costos** | 15% | 25% | 30% | 30%+ |
+| **Satisfacción cliente** | 85% | 92% | 95% | 95%+ |
 
 ---
 
 ## Conclusión
 
-Estos casos de uso demuestran cómo la implementación de agentes de AI transformará completamente las operaciones de TopLlantas, creando una ventaja competitiva sostenible y mejorando significativamente la experiencia del cliente mientras optimiza costos y eficiencia operacional.
+Estos casos de uso demuestran cómo la implementación **incremental de agentes OpenAI especializados** transformará completamente las operaciones de TopLlantas con:
+
+- **🚀 Valor inmediato** desde el primer mes con MVP funcional
+- **📈 Crecimiento sostenible** a través de fases autofinanciadas  
+- **🤖 Especialización avanzada** con agentes entrenados específicamente
+- **💰 ROI excepcional** con inversión mínima inicial ($4,200)
+- **🔒 Riesgo controlado** con tecnología probada de OpenAI
+
+El enfoque incremental permite validar cada caso de uso antes de expandir, garantizando que cada inversión genera valor real y medible para el negocio.
